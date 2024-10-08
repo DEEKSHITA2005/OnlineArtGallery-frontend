@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/OnlineArtGallery/static/css/main.a2d99c49.css",
+    "main.js": "/OnlineArtGallery/static/js/main.869913bd.js",
+    "static/js/453.b9eee137.chunk.js": "/OnlineArtGallery/static/js/453.b9eee137.chunk.js",
+    "index.html": "/OnlineArtGallery/index.html",
+    "main.a2d99c49.css.map": "/OnlineArtGallery/static/css/main.a2d99c49.css.map",
+    "main.869913bd.js.map": "/OnlineArtGallery/static/js/main.869913bd.js.map",
+    "453.b9eee137.chunk.js.map": "/OnlineArtGallery/static/js/453.b9eee137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2d99c49.css",
+    "static/js/main.869913bd.js"
+  ]
+}

@@ -1,0 +1,51 @@
+/* Home container */
+.home {
+  padding: 40px;
+  background-color: #f7f7f7;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+/* Home page title */
+.home-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+/* Artwork grid with improved layout */
+.artwork-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Exactly 4 items per row */
+  gap: 20px;
+  padding: 20px 0;
+  opacity: 0;
+  animation: fadeUp 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+/* Fade-in and fade-up animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

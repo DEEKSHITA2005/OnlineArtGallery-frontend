@@ -1,0 +1,141 @@
+.product-page {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.product-image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-thumbnail {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.product-thumbnail:hover {
+  border-color: #ff5a5f;
+}
+
+.product-main-image {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-main-image:hover {
+  transform: scale(1.05);
+}
+
+.product-details-section {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.product-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-bestseller {
+  color: #ff5a5f;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+.product-interest-free {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.add-to-bag-button {
+  background-color: #000;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.add-to-bag-button:hover {
+  background-color: #333;
+}
+
+.add-to-bag-button:disabled {
+  background-color: rgb(8, 6, 6);
+  cursor: not-allowed;
+}
+
+.add-to-bag-button.added {
+  background-color: black;
+}
+
+.product-description {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.product-details {
+  margin-top: 40px;
+}
+
+.product-details h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.product-details ul {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  color: #777;
+}
+
+.product-details ul li {
+  margin-bottom: 10px;
+}
